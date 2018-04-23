@@ -39,4 +39,5 @@ urlpatterns = [
     path('markdownx/', include('markdownx.urls')),
     path('s/', include('hknweb.shortlinks.urls')),
     path('elections/', include('hknweb.elections.urls')),
+    path('', landing.home),
 ]
